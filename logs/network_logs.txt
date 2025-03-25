@@ -1,0 +1,17 @@
+
+ALERT: Any IP packet detected | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: HTTPS traffic detected | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: Traffic from this machine | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: Any IP packet detected | Source IP: 104.22.1.235 -> Destination IP: 10.0.0.16
+ALERT: Any IP packet detected | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: HTTPS traffic detected | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: Traffic from this machine | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: Any IP packet detected | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: HTTPS traffic detected | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: Traffic from this machine | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: Any IP packet detected | Source IP: 104.22.1.235 -> Destination IP: 10.0.0.16
+ALERT: Any IP packet detected | Source IP: 104.22.1.235 -> Destination IP: 10.0.0.16
+ALERT: Any IP packet detected | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: HTTPS traffic detected | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: Traffic from this machine | Source IP: 10.0.0.16 -> Destination IP: 104.22.1.235
+ALERT: Any IP packet detected | Source IP: 104.22.1.235 -> Destination IP: 10.0.0.16

@@ -1,0 +1,7 @@
+{
+    "rules": [
+        {"condition": "IP in pkt", "description": "Any IP packet detected"},
+        {"condition": "TCP in pkt and pkt[TCP].dport == 443", "description": "HTTPS traffic detected"},
+        {"condition": "IP in pkt and pkt[IP].src == '10.0.0.16'", "description": "Traffic from this machine"}
+    ]
+}
