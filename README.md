@@ -99,5 +99,9 @@ The program writes alerts to a log file called network_logs.txt. You can open th
 
 The logs will be stored in the logs/ directory of the project.
 
-
+### 7. Images
+**Logs**
+![image alt](https://github.com/Matlaba-Machaka/IntrusionDetectionSystem/blob/f30cf1b69a8c685a4170bd4336f176d40c8c77d0/Sniffing.jpg)
+**Sniffing process**
+![image alt]()
 
