@@ -28,9 +28,11 @@ pip install scapy colorama
 ### 1. Clone the Repository
 If you're setting up the project from a GitHub repository, clone it to your local machine (skip this if you're adding the project manually).
 
-bash
-Copy code
-git clone https://github.com/yourusername/repository-name.git
+
+git clone:
+```bash
+https://github.com/yourusername/repository-name.git
+```
 If you're manually adding files, ensure you have the entire project folder on your local machine.
 
 ### 2. Directory Structure:
@@ -54,21 +56,17 @@ network-intrusion-detection/
 ### 3. Install Required Python Packages
 This project requires Python 3 and some external libraries. You can install them using pip.
 
-**Scapy**: For sniffing and analyzing network packets.
-
-**Colorama**: For colored terminal output.
+- `scapy`: For sniffing and analyzing network packets.
+- `colorama`: For colored terminal output.
 
 You can install the required dependencies by running the following command in your terminal (make sure you're in the project folder):
-
-
+```bash
 pip install -r requirements.txt
-
-**If you don't have a requirements.txt file**,
-
-you can manually install the dependencies with:
-
+```
+If you don't have a requirements.txt file, you can manually install the dependencies with:
+```bash
 pip install scapy colorama
-
+```
 ### 4. Add Rules File
 The program uses a rules.json file to define the conditions for detecting suspicious activity. You can either create the file manually or use the sample provided.
 
@@ -90,8 +88,9 @@ Save this file as rules.json in a rules/ directory inside your project folder.
 Now that everything is set up, you can run the program.
 
 In your terminal, navigate to the project directory and run:
-
+```bash
 python intrusion_detection.py
+```
 This will start the program and begin sniffing network traffic for suspicious activity.
 
 ### 6. View Logs
@@ -99,9 +98,18 @@ The program writes alerts to a log file called network_logs.txt. You can open th
 
 The logs will be stored in the logs/ directory of the project.
 
-### 7. Images
+### 7. Future Improvements
+- `Advanced Detection`: Implement more advanced detection techniques, such as anomaly detection or machine learning-based detection.
+
+- `Web Interface`: Create a web interface to view logs and alerts.
+
+- `Email Notifications`: Set up email notifications for high-severity alerts.
+
+- `Real-Time Visualization`: Add real-time visualization of network traffic and alerts.
+
+### 8. Images
 **Sniffing Process**
-![image alt](https://github.com/Matlaba-Machaka/IntrusionDetectionSystem/blob/f30cf1b69a8c685a4170bd4336f176d40c8c77d0/Sniffing.jpg)
+![IDS Output](https://github.com/Matlaba-Machaka/IntrusionDetectionSystem/blob/f30cf1b69a8c685a4170bd4336f176d40c8c77d0/Sniffing.jpg)
 **Logs**
-![image alt](https://github.com/Matlaba-Machaka/IntrusionDetectionSystem/blob/ce157a46f4ad66edd3e22820284c9cd26086a63c/logsOutput.jpg)
+![Logs](https://github.com/Matlaba-Machaka/IntrusionDetectionSystem/blob/ce157a46f4ad66edd3e22820284c9cd26086a63c/logsOutput.jpg)
 
