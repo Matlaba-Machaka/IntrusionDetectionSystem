@@ -1,3 +1,4 @@
+
 # Network Intrusion Detection System (NIDS)
 
 This project implements a simple **Intrusion Detection System (IDS)** using **Python** and **Scapy** to sniff network traffic and identify suspicious activity based on predefined rules. The system can analyze traffic, detect common intrusion patterns, and log alerts.
@@ -22,6 +23,17 @@ Install the required libraries by running the following command in your terminal
 
 ```bash
 pip install scapy colorama
+```
+### 3. **Npcap (Required for Packet Sniffing on Windows)**:
+
+Download: https://npcap.com/
+
+Ensure you select the "WinPcap API-compatible mode" option during installation.
+
+Verify installation by running:
+
+```bash
+npcap -v
 ```
 
 ### Setup Instructions
