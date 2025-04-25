@@ -43,7 +43,7 @@ If you're setting up the project from a GitHub repository, clone it to your loca
 
 git clone:
 ```bash
-https://github.com/yourusername/repository-name.git
+https://github.com/Matlaba-Machaka/repository-name.git
 ```
 If you're manually adding files, ensure you have the entire project folder on your local machine.
 
