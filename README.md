@@ -4,7 +4,7 @@
 This project implements a simple **Intrusion Detection System (IDS)** using **Python** and **Scapy** to sniff network traffic and identify suspicious activity based on predefined rules. The system can analyze traffic, detect common intrusion patterns, and log alerts.
 
 # Features
-Packet Sniffing: Monitors network traffic in real-time using Scapy.
+-**Packet Sniffing: Monitors network traffic in real-time using Scapy.**
 - **Suspicious Activity Detection**: Uses predefined rules to identify potential intrusions.
 - **Alert Logging**: Logs intrusion alerts in CSV format with timestamps, severity levels, and detailed information.
 - **Simple Rule-based Detection**: Alerts triggered by matching conditions like specific IP addresses or port numbers.
