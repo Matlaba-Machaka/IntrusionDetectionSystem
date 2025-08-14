@@ -1,7 +1,10 @@
 {
     "rules": [
-        {"condition": "IP in pkt", "description": "Any IP packet detected"},
-        {"condition": "TCP in pkt and pkt[TCP].dport == 443", "description": "HTTPS traffic detected"},
-        {"condition": "IP in pkt and pkt[IP].src == '10.0.0.16'", "description": "Traffic from this machine"}
+        {"condition": "IP in pkt and pkt[IP].src == '192.168.1.100'", "description": "Suspicious IP source detected"},
+        {"condition": "TCP in pkt and pkt[TCP].dport == 80", "description": "HTTP traffic detected"},
+        {"condition": "TCP in pkt and pkt[TCP].flags == 'S'", "description": "Potential SYN flood detected"},
+        {"condition": "Raw in pkt and 'GET' in str(pkt[Raw]).lower()", "description": "Suspicious HTTP GET request"},
+        {"condition": "IP in pkt and pkt[IP].dst in '3.5.140.0/22'", "description": "AWS S3 access attempt detected"}
     ]
 }
+
